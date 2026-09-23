@@ -22,7 +22,6 @@ npm-debug.log*
 
 # --- Terraform ---
 .terraform/
-.terraform.lock.hcl
 *.tfstate
 *.tfstate.*
 *.tfvars

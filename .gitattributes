@@ -1,0 +1,10 @@
+# Normalise line endings — critical on Windows + WSL.
+* text=auto eol=lf
+
+*.sh   text eol=lf
+*.bash text eol=lf
+
+*.png  binary
+*.jpg  binary
+*.gif  binary
+*.jar  binary

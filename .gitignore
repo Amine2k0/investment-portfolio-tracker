@@ -1,0 +1,50 @@
+# --- Secrets (never commit) ---
+.env
+.env.local
+*.pem
+*.key
+secrets/
+
+# --- Java / Maven ---
+target/
+*.class
+*.jar
+*.war
+!.mvn/wrapper/maven-wrapper.jar
+.mvn/timing.properties
+
+# --- Node / Angular ---
+node_modules/
+dist/
+.angular/
+npm-debug.log*
+*.tsbuildinfo
+
+# --- Terraform ---
+.terraform/
+.terraform.lock.hcl
+*.tfstate
+*.tfstate.*
+*.tfvars
+!*.tfvars.example
+crash.log
+
+# --- Kubernetes ---
+kubeconfig
+*.kubeconfig
+
+# --- Local operational output ---
+backups/
+logs/
+*.log
+
+# --- IDE / editors ---
+.idea/
+*.iml
+.vscode/
+*.swp
+
+# --- OS ---
+.DS_Store
+Thumbs.db
+desktop.ini

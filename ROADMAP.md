@@ -6,7 +6,7 @@ Single source of truth for **where this project is**. Updated as each phase land
 
 | Phase | Title | Focus | Status |
 |---|---|---|---|
-| 0 | Repo & workflow foundations | Git, GitHub, README skeleton | ⬜ |
+| 0 | Repo & workflow foundations | Git, GitHub, README skeleton | ✅ |
 | 1 | Spring Boot API skeleton (stocks) | Java, REST, tests | ⬜ |
 | 2 | PostgreSQL + Docker & Compose | Docker, images, networks, volumes | ⬜ |
 | 3 | Bash operational tooling | Linux, shell, processes, signals | ⬜ |
@@ -295,3 +295,4 @@ Add a line per session. Honest record, including the sessions that went nowhere.
 | Date | Phase | What happened |
 |---|---|---|
 | 2026-09-23 | — | Planning: CLAUDE.md + ROADMAP.md written. Awaiting go-ahead for Phase 0. |
+| 2026-09-23 | 0 | `git init -b main`, 5 conventional commits, public repo + topics via `gh`. Push hit GH007 (private email) → switched to noreply address, rewrote authors with `rebase --exec --reset-author`. Unignored `.terraform.lock.hcl`; CLAUDE.md kept local. ✅ Phase 0 done. |
